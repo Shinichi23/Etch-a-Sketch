@@ -1,7 +1,8 @@
 const container = document.querySelector("#container");
+const num = prompt();
 
 function grid(grid) {
-  for (let i = 0; i < 256; i++) {
+  for (let i = 0; i < num ** 2; i++) {
     grid = document.createElement("div");
     grid.classList.add("grid");
     container.appendChild(grid);

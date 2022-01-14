@@ -1,16 +1,10 @@
 #container {
-  display: flex;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  width: 40.6%;
-  border: 2px solid green;
+  display: grid;
+  grid-template-columns: repeat(16, 20px);
+  grid-template-rows: repeat(16, 20px);
 }
 
 .grid {
   border: 2px solid black;
-  padding: 10px;
-  margin: 0;
-  width: 10px;
-  height: 10px;
-  display: inline-block;
+  padding: 5px;
 }
