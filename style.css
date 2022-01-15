@@ -1,10 +1,17 @@
-#container {
+body {
   display: grid;
-  grid-template-columns: repeat(16, 20px);
-  grid-template-rows: repeat(16, 20px);
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+#container {
+  display: inline-grid;
+  grid-template-columns: repeat(16, 30px);
+  grid-template-rows: repeat(16, 30px);
+  border: 2px solid black;
 }
 
 .grid {
-  border: 2px solid black;
-  padding: 5px;
+  padding: 15px;
 }
