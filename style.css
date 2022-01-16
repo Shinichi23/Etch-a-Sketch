@@ -1,8 +1,17 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
 body {
   display: grid;
   justify-content: center;
   align-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #container {
@@ -17,4 +26,11 @@ body {
 
 .grid {
   border: 1px solid #ddd;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #eee;
+  border-color: black;
+  margin: 5px;
 }

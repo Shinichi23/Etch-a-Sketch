@@ -45,7 +45,7 @@ function deleteGrid() {
 
 const buttonReset = reset.addEventListener("click", () => {
   deleteGrid();
-  let num = prompt();
+  let num = prompt("Choose your dimension : ");
   if (num > 99 || num < 2) {
     (num = prompt()), box(num);
   } else return box(num);
